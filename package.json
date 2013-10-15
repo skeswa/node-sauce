@@ -1,0 +1,10 @@
+{
+  "name": "sauce",
+  "version": "0.0.1",
+  "main": "./test/server.js",
+  "devDependencies": {
+    "express": "*",
+    "mongodb": "*",
+    "MD5": "*"
+  }
+}

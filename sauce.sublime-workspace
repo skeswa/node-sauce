@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cool",
+				"coolQueue	struct ʈ"
+			],
+			[
+				"Prin",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"P",
+				"Print	n int, err error ƒ"
+			],
+			[
+				"S",
+				"Scanln	n int, err error ƒ"
+			],
+			[
+				"Coo",
+				"CoolQueueEmptyError	struct ʈ"
+			],
+			[
+				"W",
+				"WriteString	n int, err error ƒ"
+			],
+			[
+				"C",
+				"coolNode	struct ʈ"
+			],
+			[
+				"remaining",
+				"remainingSuper"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"ini",
+				"inline-block"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"con",
+				"contentPresenter"
+			],
+			[
+				"sid",
+				"sideMenuPresenter"
+			],
+			[
+				"event",
+				"eventManager"
+			],
+			[
+				"eve",
+				"eventManager"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"resize",
+				"resizeButton"
+			],
+			[
+				"res",
+				"restore"
+			],
+			[
+				"model",
+				"model"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"par",
+				"param"
+			],
+			[
+				"param",
+				"parameters"
+			],
+			[
+				"mod",
+				"models"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"sc",
+				"screenY"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"us",
+				"userId"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"sync",
+				"synced"
+			],
+			[
+				"db",
+				"dbManager"
+			],
+			[
+				"mode",
+				"module"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"c",
+				"callback"
+			],
+			[
+				"mo",
+				"modelModules"
+			],
+			[
+				"e",
+				"entity"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Instalk",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"no",
+				"Nodejs::NPM::Install"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/dev/repos/github/letmegetthatforyou.io/chrome/main.html",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.sublime-settings",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/GoSublime/Default (Windows).sublime-keymap",
+		"/C/dev/repos/technuf/grid-wizard/README",
+		"/C/dev/repos/technuf/grid-wizard/android-demo/res/values-large/styles.xml",
+		"/C/dev/repos/technuf/grid-wizard/android-demo/AndroidManifest.xml",
+		"/C/dev/repos/technuf/grid-wizard/android-demo/res/values/styles.xml",
+		"/C/dev/repos/technuf/aphelia-client/gen/com/technuf/aphelia/BuildConfig.java",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/sandile.me",
+		"/C/dev/workspaces/hack/courier/css/list.css",
+		"/C/dev/workspaces/hack/courier/js/dal/dal.js",
+		"/C/dev/repos/github/alluvit.io/js/ui/presenters/mosaic.presenter.js",
+		"/C/dev/repos/github/alluvit.io/js/ui/ui.js",
+		"/C/dev/repos/github/alluvit.io/js/ui/presenters/header.presenter.js",
+		"/C/dev/repos/github/alluvit.io/js/dal/contacts.dao.js",
+		"/C/dev/repos/github/alluvit.io/README.md",
+		"/C/Users/Sandile/Documents/Technuf/Aphelia/README",
+		"/C/dev/repos/technuf/aphelia-client/README",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Sandile/.ssh/id_rsa.pub",
+		"/C/dev/workspaces/sandile/node/courier/controllers/device.js",
+		"/C/dev/repos/github/pledgepoint/server/models/drive.js",
+		"/C/dev/repos/github/pledgepoint/server/public/js/ui/presenters/drive.grid.presenter.js",
+		"/C/dev/repos/github/pledgepoint/server/public/templates/drive.grid.item.template.html",
+		"/C/dev/repos/github/pledgepoint/server/controllers/extended.js",
+		"/C/dev/repos/github/pledgepoint/server/controllers/base.js",
+		"/C/dev/repos/github/pledgepoint/server/worker.js",
+		"/C/dev/repos/github/pledgepoint/server/controllers/app.js",
+		"/C/dev/repos/github/pledgepoint/server/views/app.jade",
+		"/C/dev/repos/github/pledgepoint/server/controllers/venmo.js",
+		"/C/dev/repos/github/pledgepoint/server/public/css/content.css",
+		"/C/dev/repos/github/pledgepoint/server/libs/logger.js",
+		"/C/dev/repos/github/pledgepoint/server/models/service.js",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/views/session.panel.view.js",
+		"/C/dev/repos/github/pledgepoint/client/css/header.css",
+		"/C/dev/repos/github/pledgepoint/client/main.html",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/presenters/side.menu.presenter.js",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/views/side.menu.view.js",
+		"/C/dev/repos/github/pledgepoint/client/css/content.css",
+		"/C/dev/repos/github/pledgepoint/client/css/list.css",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/presenters/window.presenter.js",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/presenters/session.panel.presenter.js",
+		"/C/dev/repos/github/pledgepoint/client/css/general.css",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/views/header.view.js",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/presenters/header.presenter.js",
+		"/C/dev/repos/github/pledgepoint/client/js/ui/views/session.panel.presenter.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/header.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/main.html",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/ui/ui.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/ui/header.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/ui/views/header.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/lib/underscore-min.js",
+		"/C/Users/Sandile/Downloads/ObjectModel.uml.xml",
+		"/C/dev/workspaces/sandile/node/courier/courier.iml",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/server.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/libs/logger.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/db/manager.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/worker.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/controllers/index.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/controllers/user.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/account.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/contact.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/conversation.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/device.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/facet.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/listener.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/message.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/service.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/user.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/node_modules/orm/lib/Associations/Many.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/models/index.js",
+		"/C/Users/Sandile/AppData/Local/Google/Chrome/User Data/Default/Extensions/cokgbflfommojglbmbpenpphppikmonn/4.0.2_0/manifest.json",
+		"/C/Users/Sandile/AppData/Local/Google/Chrome/User Data/Default/Extensions/boadgeojelhgndaghljhdicfkmllpafd/2.2013.10802.11508_0/popup_menu.html",
+		"/C/Users/Sandile/AppData/Local/Google/Chrome/User Data/Default/Extensions/lkdfkbkkfdhhfnhgbphecddnpfnoedke/1.78_0/manifest.json",
+		"/C/Users/Sandile/AppData/Local/Google/Chrome/User Data/Default/Extensions/lkdfkbkkfdhhfnhgbphecddnpfnoedke/1.78_0/chrome_ex_oauth.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/config.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/app.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/dal/contacts.dao.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/lib/google-jsapi.min.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/dal/dal.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/manifest.json",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/general.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/header.js",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/content.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/background.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/list.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/styles.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/chat.css",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers.js",
+		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/C/dev/resources/html5boilerplate/v4.2.0.0/index.html",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/MainController.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/ConversationController.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/controller_conversation_list.js",
+		"/C/Users/Sandile/AppData/Local/Temp/Temp1_GCM-Chrome-Upload.zip/GCM-Chrome/manifest.json",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/html/window.html",
+		"/C/dev/repos/github/flowframe/editors/oryx/frontend/src/main/javascript/client/scripts/Core/main.js",
+		"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.1.4/bin/idea64.exe.vmoptions",
+		"/C/Users/Sandile/Downloads/back.html",
+		"/C/dev/repos/github/flowframe/thirdparty/batik/batik170/pom.xml",
+		"/C/dev/repos/github/flowframe/thirdparty/avalon/pom.xml",
+		"/C/dev/repos/github/flowframe/editors/oryx/pom.xml",
+		"/C/dev/repos/github/flowframe/.gitignore.global",
+		"/C/Users/Sandile/Google Drive/Epsilon Labs, LLC/apps/courier/branding/icon/v1/attribution.txt",
+		"/C/dev/repos/github/flowframe/thirdparty/avalon/.gitignore",
+		"/C/dev/repos/github/flowframe/thirdparty/batik/pom.xml",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/package.json",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/db/config.js",
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/node_modules/orm/lib/ORM.js",
+		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/WindowManagerImpl.java",
+		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/WindowManagerGlobal.java",
+		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/ViewRootImpl.java",
+		"/C/Riot Games/League of Legends/Logs/Game - R3d Logs/2013-07-25T23-23-44_r3dlog.txt",
+		"/C/dev/repos/github/flowframe/editors/oryx/webserver/pom.xml",
+		"/C/dev/repos/github/flowframe/editors/oryx/webserver/src/test/java/org/b3mn/poem/tests/NewModelHandlerTest.java",
+		"/C/dev/runtimes/conxbi3/virgo-tomcat-server-3.6.1.RELEASE-DEV/notice.html",
+		"/C/dev/repos/github/project-indigo-demo/README.md",
+		"/C/dev/tools/apache-ant-1.9.2/INSTALL",
+		"/C/dev/repos/github/project-indigo-demo/project.properties",
+		"/C/dev/runtimes/conxbi3/virgo-tomcat-server-3.6.1.RELEASE-DEV/About.html",
+		"/C/Users/Sandile/.m2/repository/repository.xml",
+		"/C/dev/runtimes/conxbi3/guvnor-distribution-5.5.0.Final/guvnor-distribution-5.5.0.Final/ReadMeGuvnor.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\dev\\repos\\technuf\\grid-wizard\\android-demo",
+			"C:\\dev\\repos\\github\\alluvit.io",
+			"C:\\dev\\repos\\bitbucket\\epsilonlabsllc\\servers\\courier",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fmt",
+			"LoginFormContainer",
+			"addMessage",
+			"console.log",
+			"time(",
+			"\\n",
+			"\"",
+			">\n",
+			"gridster",
+			"paintMap",
+			"IllegalArgument",
+			"\\",
+			"js",
+			")));\n",
+			"logger.",
+			"hasMany",
+			"conversations",
+			"user",
+			".map",
+			"jquery",
+			"http://themes.googleusercontent.com/static/fonts/opensans/v6/\n",
+			";\n",
+			"User",
+			"user",
+			"USER_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\\"",
+			"SpiceDeployment",
+			"",
+			"service",
+			"contact",
+			"../fonts/",
+			"Device",
+			"device",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.GoSublime-output":
+	{
+		"height": 100.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 137.0,
+	"status_bar_visible": true
+}
