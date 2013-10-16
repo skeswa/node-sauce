@@ -1,24 +1,25 @@
-var ExpressApplicationAlreadySpecifiedException = function() {
-    Error.apply(this, ["The express application has already been specified. Sauce only allows a single express app to be specified."]);
+var util = require("util");
+
+var ExpressApplicationAlreadyBoundException = function() {
+    Error.captureStackTrace(this, this);
+    this.message = "The express application has already been bound. Sauce only allows a single express app to be bound to it.";
 }
-ExpressApplicationAlreadySpecifiedException.prototype = new Error();
-ExpressApplicationAlreadySpecifiedException.prototype.constructor = ExpressApplicationAlreadySpecifiedException;
-ExpressApplicationAlreadySpecifiedException.prototype.name = "ExpressApplicationAlreadySpecifiedException";
+util.inherits(ExpressApplicationAlreadyBoundException, Error);
+ExpressApplicationAlreadyBoundException.prototype.name = "ExpressApplicationAlreadyBoundException";
+module.exports.ExpressApplicationAlreadyBoundException = ExpressApplicationAlreadyBoundException;
 
-module.exports.ExpressApplicationNotYetSpecifiedException = ExpressApplicationNotYetSpecifiedException;
-
-var ExpressApplicationNotYetSpecifiedException = function() {
-    Error.apply(this, ["The express application has not yet been specified. Sauce requires a single express app to be specified."]);
+var ExpressApplicationNotYetBoundException = function() {
+    Error.captureStackTrace(this, this);
+    this.message = "The express application has not yet been specified. Sauce requires to be bound to one express application before functioning.";
 }
-ExpressApplicationNotYetSpecifiedException.prototype = new Error();
-ExpressApplicationNotYetSpecifiedException.prototype.constructor = ExpressApplicationNotYetSpecifiedException;
-ExpressApplicationNotYetSpecifiedException.prototype.name = "ExpressApplicationNotYetSpecifiedException";
+util.inherits(ExpressApplicationNotYetBoundException, Error);
+ExpressApplicationNotYetBoundException.prototype.name = "ExpressApplicationNotYetBoundException";
+module.exports.ExpressApplicationNotYetBoundException = ExpressApplicationNotYetBoundException;
 
-module.exports.ExpressApplicationNotYetSpecifiedException = ExpressApplicationNotYetSpecifiedException;
-
-var IllegalArgumentException = function(message) {
-    this.message = message;
-    this.name = "IllegalArgumentException";
+var IllegalArgumentException = function(_message) {
+    Error.captureStackTrace(this, this);
+    this.message = _message;
 }
-
+util.inherits(IllegalArgumentException, Error);
+IllegalArgumentException.prototype.name = "IllegalArgumentException";
 module.exports.IllegalArgumentException = IllegalArgumentException;
