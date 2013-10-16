@@ -17,17 +17,13 @@ app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 
 // Sauce
-sauce(app, {}, function(err, _sauce) {
-    if (err) {
-        throw err;
-    } else {
-        sauce = _sauce;
-        // Constants
-        var SERVER_PORT = 7373;
-
-        // Start app
-        app.listen(SERVER_PORT, function() {
-            console.log("Server started on port " + SERVER_PORT);
-        });
-    }
+sauce.express(app).configure({
+    one: 1,
+    two: "2",
+    three: "3",
+    four: 4
+}).api("google").api("facebook").api("github", {
+    githubSetting1: 1,
+    githubSetting2: 2,
+    githubSetting3: 3
 });
