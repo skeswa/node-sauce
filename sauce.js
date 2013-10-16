@@ -28,8 +28,25 @@ var isInternalApiName = function(name) {
     }
 }
 
-var route = function(method, routePath, apis, callback) {
-
+var route = function(method, routePath, apiArray, callback) {
+    if (!app) throw new ex.ExpressApplicationNotYetSpecifiedException();
+    if (!(method === "GET" || method === "HEAD" || method === "POST" || method === "PUT" || method === "DELETE" || method === "TRACE" || method === "CONNECT")) {
+        throw new ex.IllegalArgumentException("'" + method + "' is not a valid HTTP method for Sauce.route(...).");
+    }
+    if (!routePath) throw new ex.IllegalArgumentException("Sauce.route(...) requires the 'routePath' parameter.");
+    if (!callback && apiArray && (apiArray && getClass.call(apiArray) == "[object Function]")) {
+        // Means that the apis array was never defined, so we skip it
+        callback = apiArray;
+        apiArray = [];
+    }
+    app[method.toLowercase()](routePath, function(req, res) {
+        if (!req.session.apis) {
+            req.session.apis = {};
+            for (var fieldName in apis) {
+                req.session.apis[fieldName] = apis[fieldName].getClient(req.session);
+            }
+        }
+    });
 }
 
 module.exports = {
@@ -60,6 +77,7 @@ module.exports = {
         return module.exports;
     },
     api: function(apiName, apiConfig) {
+        if (!app) throw new ex.ExpressApplicationNotYetSpecifiedException();
         if (!apiName) throw new ex.IllegalArgumentException("Sauce.api(...) requires the 'apiName' parameter.");
         if (!apis) apis = {};
         if (!apis[apiName]) {
