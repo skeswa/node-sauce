@@ -16,6 +16,14 @@ util.inherits(ExpressApplicationNotYetBoundException, Error);
 ExpressApplicationNotYetBoundException.prototype.name = "ExpressApplicationNotYetBoundException";
 module.exports.ExpressApplicationNotYetBoundException = ExpressApplicationNotYetBoundException;
 
+var ExpressSessionUndefinedException = function() {
+    Error.captureStackTrace(this, this);
+    this.message = "Sauce requires that the express application uses express.session(...).";
+}
+util.inherits(ExpressSessionUndefinedException, Error);
+ExpressSessionUndefinedException.prototype.name = "ExpressSessionUndefinedException";
+module.exports.ExpressSessionUndefinedException = ExpressSessionUndefinedException;
+
 var IllegalArgumentException = function(_message) {
     Error.captureStackTrace(this, this);
     this.message = _message;
