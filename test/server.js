@@ -31,3 +31,9 @@ app.use(sauce.bind(app).configure({
     clientId: "ROMPPDasdasdas",
     clientSecret: "ROMPPDasdasdasROMPPDasdasdasROMPPDasdasdas"
 }).express());
+
+app.get("/", function (req, res) {
+    if (req.sauce.apis.auth()) {
+        res.send(200, "Nice work!");
+    }
+});

@@ -138,10 +138,10 @@ var express = function() {
                 for (var apiName in apis) {
                     if (!apis[apiName].authed(req)) {
                         apis[apiName].auth(req, res);
-                        return true;
+                        return false;
                     }
                 }
-                return false;
+                return true;
             }
         }
         // Add api wrappers if necessary
