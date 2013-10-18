@@ -22,4 +22,10 @@ Desired Interaction:
         clientSecret: "ROMPPDasdasdasROMPPDasdasdasROMPPDasdasdas"
     }).express());
 
+    app.get("/", function (req, res) {
+        if (req.sauce.apis.auth()) {
+            res.send(200, "We're all authed up!");
+        }
+    });
+
 DOOITZ!
