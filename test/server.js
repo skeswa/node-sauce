@@ -21,8 +21,9 @@ app.use(sauce.bind(app).configure({
     apiBaseRoute: "/sauce/apis/",
     sessionTimeout: 300000
 }).api("google", {
-    clientId: "987q243t32q76",
-    clientSecret: "987q243t32q76987q243t32q76987q243t32q76"
+    clientId: "1073639428455-4i31qgcbhon7dvstd9r6efeo7rhcsedl.apps.googleusercontent.com",
+    appSecret: "TdJQNp1INvQHdCINUiQbR6PZ",
+    scopes: "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gcm_for_chrome",
 }).api("facebook", {
     clientId: "76yui987ui98u",
     clientSecret: "76yui987ui98u76yui987ui98u76yui987ui98u"

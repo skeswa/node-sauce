@@ -67,6 +67,7 @@ var api = function(apiName, apiConfig) {
             apis[apiName] = require(path.join(INTERNAL_API_PATH, apiName + ".js"));
             if (!config) config = {};
             apis[apiName].register(app, config, apiConfig);
+            log.d("The '" + apiName + "' api was registered successfully.");
         } else {
             // We have to check this is legit first
             var problem;
