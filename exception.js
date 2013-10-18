@@ -24,6 +24,14 @@ util.inherits(ExpressSessionUndefinedException, Error);
 ExpressSessionUndefinedException.prototype.name = "ExpressSessionUndefinedException";
 module.exports.ExpressSessionUndefinedException = ExpressSessionUndefinedException;
 
+var ExpressAPINotRegisteredException = function(apiName) {
+    Error.captureStackTrace(this, this);
+    this.message = "The '" + apiName + "' API has not been registered. Sauce registers APIs with sauce.api(...).";
+}
+util.inherits(ExpressAPINotRegisteredException, Error);
+ExpressAPINotRegisteredException.prototype.name = "ExpressAPINotRegisteredException";
+module.exports.ExpressAPINotRegisteredException = ExpressAPINotRegisteredException;
+
 var IllegalArgumentException = function(_message) {
     Error.captureStackTrace(this, this);
     this.message = _message;
