@@ -129,7 +129,8 @@ exp.configure = configure;
 var express = function() {
     if (!app) throw new ex.ExpressApplicationNotYetBoundException();
     // In the middleware function, do auth of all the necessary APIs
-    return function(req, res) {
+    return function(req, res, next) {
+		console.log("middleware reached");
         if (!req.sauce) req.sauce = {};
         if (!req.sauce.apis) {
             req.sauce.apis = {};
@@ -167,6 +168,7 @@ var express = function() {
                 };
             }
         }
+		next();
     };
 }
 exp.express = express;

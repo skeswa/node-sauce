@@ -17,6 +17,10 @@ app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 
 // Sauce
+app.use(function(req,res,next){
+  console.log(req.url)
+  next()
+});
 app.use(sauce.bind(app).configure({
     apiBaseRoute: "/sauce/apis/",
     sessionTimeout: 300000
@@ -33,7 +37,17 @@ app.use(sauce.bind(app).configure({
 }).express());
 
 app.get("/", function (req, res) {
-    if (req.sauce.apis.auth()) {
+    if (req.sauce.apis.google.auth()) {
+		var googleApi = req.sauce.apis.google.client();
+		googleApi.get('oauth2/v1/userinfo').success(function(jsonBody){
+			console.log(jsonBody);
+		}).failure(function(error, response, body){
+			console.log(error);
+		}).call();
         res.send(200, "Nice work!");
     }
+});
+
+app.listen(7373, function() {
+	console.log("Server started on port " + 7373);
 });

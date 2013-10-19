@@ -39,3 +39,19 @@ var IllegalArgumentException = function(_message) {
 util.inherits(IllegalArgumentException, Error);
 IllegalArgumentException.prototype.name = "IllegalArgumentException";
 module.exports.IllegalArgumentException = IllegalArgumentException;
+
+var APINotAuthorizedException = function(_message) {
+    Error.captureStackTrace(this, this);
+    this.message = _message;
+}
+util.inherits(APINotAuthorizedException, Error);
+APINotAuthorizedException.prototype.name = "APINotAuthorizedException";
+module.exports.APINotAuthorizedException = APINotAuthorizedException;
+
+var IllegalStateException = function(_message) {
+    Error.captureStackTrace(this, this);
+    this.message = _message;
+}
+util.inherits(IllegalStateException, Error);
+IllegalStateException.prototype.name = "IllegalStateException";
+module.exports.IllegalStateException = IllegalStateException;
