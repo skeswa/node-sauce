@@ -4,6 +4,130 @@
 		"selected_items":
 		[
 			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"rs",
+				"result"
+			],
+			[
+				"acc",
+				"accessToken"
+			],
+			[
+				"ch",
+				"charAt"
+			],
+			[
+				"c",
+				"contentType"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"API",
+				"API_NAME"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"return",
+				"returnUrl"
+			],
+			[
+				"reg",
+				"registered"
+			],
+			[
+				"initi",
+				"initialized"
+			],
+			[
+				"init",
+				"initialized"
+			],
+			[
+				"test",
+				"testNext"
+			],
+			[
+				"testR",
+				"testReq"
+			],
+			[
+				"sa",
+				"sauceTest"
+			],
+			[
+				"redir",
+				"redirectUrl"
+			],
+			[
+				"ap",
+				"apiName"
+			],
+			[
+				"is",
+				"isValidExternalApiName"
+			],
+			[
+				"api",
+				"apiClient"
+			],
+			[
+				"Ex",
+				"ExpressApplicationNotYetBoundException"
+			],
+			[
+				"getC",
+				"getClient"
+			],
+			[
+				"req",
+				"reqPayload"
+			],
+			[
+				"rout",
+				"routePath"
+			],
+			[
+				"chain",
+				"chainObj"
+			],
+			[
+				"chai",
+				"chainObj"
+			],
+			[
+				"requ",
+				"require"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"load",
+				"loadApis"
+			],
+			[
+				"finish",
+				"finishCount"
+			],
+			[
 				"cool",
 				"coolQueue	struct ʈ"
 			],
@@ -52,10 +176,6 @@
 				"padding-right"
 			],
 			[
-				"con",
-				"contentPresenter"
-			],
-			[
 				"sid",
 				"sideMenuPresenter"
 			],
@@ -82,10 +202,6 @@
 			[
 				"model",
 				"model"
-			],
-			[
-				"req",
-				"require"
 			],
 			[
 				"par",
@@ -136,10 +252,6 @@
 				"function"
 			],
 			[
-				"c",
-				"callback"
-			],
-			[
 				"mo",
 				"modelModules"
 			],
@@ -151,6 +263,71 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "lib/sauce.js",
+			"settings":
+			{
+				"buffer_size": 7022,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/apis/google.js",
+			"settings":
+			{
+				"buffer_size": 6510,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test/server.js",
+			"settings":
+			{
+				"buffer_size": 1256,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib.js",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Windows",
+				"name": "module.exports = require(\"./lib/sauce.js\");"
+			}
+		},
+		{
+			"file": "lib/client.js",
+			"settings":
+			{
+				"buffer_size": 3406,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
+			"settings":
+			{
+				"buffer_size": 4078,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/exception.js",
+			"settings":
+			{
+				"buffer_size": 3978,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/log.js",
+			"settings":
+			{
+				"buffer_size": 570,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -196,6 +373,22 @@
 	},
 	"file_history":
 	[
+		"/C/dev/repos/github/node-sauce/package.json",
+		"/C/dev/repos/github/node-sauce/test/server.js",
+		"/C/dev/repos/github/node-sauce/exception.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
+		"/C/dev/repos/github/node-sauce/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/util.js",
+		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
+		"/C/dev/repos/github/node-sauce/README.md",
+		"/C/dev/repos/github/node-sauce/lib/apis/twilio.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/facebook.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/github.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/twitter.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/venmo.js",
+		"/C/dev/repos/github/node-sauce/log.js",
+		"/C/dev/repos/github/letmegetthatforyou.io/server/server.js",
+		"/C/dev/repos/github/letmegetthatforyou.io/server/package.json",
 		"/C/dev/repos/github/letmegetthatforyou.io/chrome/main.html",
 		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
 		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.sublime-settings",
@@ -307,20 +500,7 @@
 		"/C/dev/repos/github/flowframe/thirdparty/batik/pom.xml",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/package.json",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/db/config.js",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/node_modules/orm/lib/ORM.js",
-		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/WindowManagerImpl.java",
-		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/WindowManagerGlobal.java",
-		"/C/dev/ides/adt-bundle-windows-x86_64-20130522/sdk/sources/android-17/android/view/ViewRootImpl.java",
-		"/C/Riot Games/League of Legends/Logs/Game - R3d Logs/2013-07-25T23-23-44_r3dlog.txt",
-		"/C/dev/repos/github/flowframe/editors/oryx/webserver/pom.xml",
-		"/C/dev/repos/github/flowframe/editors/oryx/webserver/src/test/java/org/b3mn/poem/tests/NewModelHandlerTest.java",
-		"/C/dev/runtimes/conxbi3/virgo-tomcat-server-3.6.1.RELEASE-DEV/notice.html",
-		"/C/dev/repos/github/project-indigo-demo/README.md",
-		"/C/dev/tools/apache-ant-1.9.2/INSTALL",
-		"/C/dev/repos/github/project-indigo-demo/project.properties",
-		"/C/dev/runtimes/conxbi3/virgo-tomcat-server-3.6.1.RELEASE-DEV/About.html",
-		"/C/Users/Sandile/.m2/repository/repository.xml",
-		"/C/dev/runtimes/conxbi3/guvnor-distribution-5.5.0.Final/guvnor-distribution-5.5.0.Final/ReadMeGuvnor.txt"
+		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/node_modules/orm/lib/ORM.js"
 	],
 	"find":
 	{
@@ -339,9 +519,51 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"consol",
+			"req.session.sauce",
+			"IllegalState",
+			"contentType",
+			"middleware",
+			"req.sauce",
+			".session",
+			"register",
+			".init",
+			"module.exports.",
+			"API_TITLE",
+			"Initialized",
+			"Reg",
+			"app",
+			"app.",
+			".regi",
+			"isAuthed",
+			"doAuth",
+			"getClient",
+			".regis",
+			"API_ROUTE_ROOT",
+			"google",
+			"Already",
+			"IllegalArgument",
+			"reg",
+			".reg",
+			"API_KEY",
+			"scope",
+			"exp",
+			"module.",
+			"req.session",
+			"IllegalArgument",
+			".session",
+			"ExpressApplicationAlreadyBound",
+			"Already",
+			"Specified",
+			"ExpressApplicationNotYetSpecified",
+			"AlreadySpecified",
+			"ExpressApplication",
+			"load-apis",
+			"state",
+			"context",
 			"fmt",
 			"LoginFormContainer",
 			"addMessage",
@@ -370,10 +592,33 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"req.sauce",
+			"APICallFailure",
+			"accept",
+			"expressMiddleware",
+			"res.session.sauce",
+			"var ",
+			"API_NAME",
+			"Registered",
+			"authed",
+			"auth",
+			"makeClient",
+			"API_ROOT",
+			"NotYet",
+			"APIAlreadyInitialized",
+			"ExpressSessionUndefined",
+			"IllegalArgument",
+			"NotYet",
+			"Bound",
+			"IllegalArgument",
+			"NotYetSpecified",
+			"Configuration",
+			"init-loadapis",
+			"context",
 			"",
 			"\\\"",
 			"SpiceDeployment",
@@ -394,8 +639,251 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "lib/sauce.js",
+					"settings":
+					{
+						"buffer_size": 7022,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3126,
+								3126
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 947.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/apis/google.js",
+					"settings":
+					{
+						"buffer_size": 6510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3846,
+								3846
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 139.0,
+						"translation.y": 829.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test/server.js",
+					"settings":
+					{
+						"buffer_size": 1256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib.js",
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"auto_name": "module.exports = require(\"./lib/sauce.js\");",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/client.js",
+					"settings":
+					{
+						"buffer_size": 3406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2936,
+								2936
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 532.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
+					"settings":
+					{
+						"buffer_size": 4078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								512,
+								530
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 37.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/exception.js",
+					"settings":
+					{
+						"buffer_size": 3978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3912,
+								3912
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 698.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/log.js",
+					"settings":
+					{
+						"buffer_size": 570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -471,6 +959,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 137.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true
 }

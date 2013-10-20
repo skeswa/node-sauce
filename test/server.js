@@ -21,14 +21,17 @@ app.use(sauce.bind(app).configure({
     sessionTimeout: 300000
 }).api("google", {
     clientId: "1073639428455-4i31qgcbhon7dvstd9r6efeo7rhcsedl.apps.googleusercontent.com",
-    appSecret: "TdJQNp1INvQHdCINUiQbR6PZ",
+    clientSecret: "TdJQNp1INvQHdCINUiQbR6PZ",
     scopes: "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gcm_for_chrome",
+}).api("github", {
+    clientId: "2e11a6de2de2a14d662e",
+    clientSecret: "cd43e16431d35c234790705272d3962e10fb642e"
 }).express());
 
-// A test route
-app.get("/", function (req, res) {
+// Test routes
+app.get("/google", function (req, res) {
     if (!req.sauce.apis.google.authed()) {
-        req.sauce.apis.google.auth("/");
+        req.sauce.apis.google.auth("/google");
     } else {
         var client = req.sauce.apis.google.client();
         var userRequest = client.get("oauth2/v1/userinfo").success(function (user) {
@@ -37,6 +40,13 @@ app.get("/", function (req, res) {
             res.send(500, user);
         });
         userRequest.call();
+    }
+});
+app.get("/github", function (req, res) {
+    if (!req.sauce.apis.github.authed()) {
+        req.sauce.apis.github.auth("/github");
+    } else {
+        res.send("WOOP - GITHUB SON.");
     }
 });
 
