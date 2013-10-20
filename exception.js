@@ -24,13 +24,29 @@ util.inherits(ExpressSessionUndefinedException, Error);
 ExpressSessionUndefinedException.prototype.name = "ExpressSessionUndefinedException";
 module.exports.ExpressSessionUndefinedException = ExpressSessionUndefinedException;
 
-var ExpressAPINotRegisteredException = function(apiName) {
+var APIAlreadyInitializedException = function(apiName) {
     Error.captureStackTrace(this, this);
-    this.message = "The '" + apiName + "' API has not been registered. Sauce registers APIs with sauce.api(...).";
+    this.message = "The '" + apiName + "' API has already been initialized. Sauce initializes APIs with sauce.api(...).";
 }
-util.inherits(ExpressAPINotRegisteredException, Error);
-ExpressAPINotRegisteredException.prototype.name = "ExpressAPINotRegisteredException";
-module.exports.ExpressAPINotRegisteredException = ExpressAPINotRegisteredException;
+util.inherits(APIAlreadyInitializedException, Error);
+APIAlreadyInitializedException.prototype.name = "APIAlreadyInitializedException";
+module.exports.APIAlreadyInitializedException = APIAlreadyInitializedException;
+
+var APINotYetInitializedException = function(apiName) {
+    Error.captureStackTrace(this, this);
+    this.message = "The '" + apiName + "' API hasn't been initialized yet. Sauce initializes APIs with sauce.api(...).";
+}
+util.inherits(APINotYetInitializedException, Error);
+APINotYetInitializedException.prototype.name = "APINotYetInitializedException";
+module.exports.APINotYetInitializedException = APINotYetInitializedException;
+
+var APIAlreadyRegisteredException = function(apiName) {
+    Error.captureStackTrace(this, this);
+    this.message = "The '" + apiName + "' API has already been registered. Sauce registers APIs when sauce.express() is called.";
+}
+util.inherits(APIAlreadyRegisteredException, Error);
+APIAlreadyRegisteredException.prototype.name = "APIAlreadyRegisteredException";
+module.exports.APIAlreadyRegisteredException = APIAlreadyRegisteredException;
 
 var IllegalArgumentException = function(_message) {
     Error.captureStackTrace(this, this);

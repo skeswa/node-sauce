@@ -17,10 +17,6 @@ app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 
 // Sauce
-app.use(function(req,res,next){
-  console.log(req.url)
-  next()
-});
 app.use(sauce.bind(app).configure({
     apiBaseRoute: "/sauce/apis/",
     sessionTimeout: 300000
@@ -28,14 +24,13 @@ app.use(sauce.bind(app).configure({
     clientId: "1073639428455-4i31qgcbhon7dvstd9r6efeo7rhcsedl.apps.googleusercontent.com",
     appSecret: "TdJQNp1INvQHdCINUiQbR6PZ",
     scopes: "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gcm_for_chrome",
-}).api("facebook", {
-    clientId: "76yui987ui98u",
-    clientSecret: "76yui987ui98u76yui987ui98u76yui987ui98u"
-}).api("github", {
-    clientId: "ROMPPDasdasdas",
-    clientSecret: "ROMPPDasdasdasROMPPDasdasdasROMPPDasdasdas"
 }).express());
 
+app.get("/", function (req, res) {
+    res.send(200);
+})
+
+/*
 app.get("/", function (req, res) {
     if (req.sauce.apis.google.auth()) {
 		var googleApi = req.sauce.apis.google.client();
@@ -46,7 +41,7 @@ app.get("/", function (req, res) {
 		}).call();
         res.send(200, "Nice work!");
     }
-});
+}); */
 
 app.listen(7373, function() {
 	console.log("Server started on port " + 7373);
