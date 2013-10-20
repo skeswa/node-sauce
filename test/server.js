@@ -1,4 +1,4 @@
-var sauce = require("../sauce.js");
+var sauce = require("../lib.js");
 
 // Library Imports
 var express = require("express");
