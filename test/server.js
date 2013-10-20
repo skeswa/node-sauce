@@ -14,7 +14,6 @@ app.use(express.session({
     })
 }));
 app.use(express.bodyParser());
-app.use(express.static(__dirname + '/public'));
 
 // Sauce
 app.use(sauce.bind(app).configure({
@@ -26,22 +25,20 @@ app.use(sauce.bind(app).configure({
     scopes: "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gcm_for_chrome",
 }).express());
 
+// A test route
 app.get("/", function (req, res) {
-    res.send(200);
-})
-
-/*
-app.get("/", function (req, res) {
-    if (req.sauce.apis.google.auth()) {
-		var googleApi = req.sauce.apis.google.client();
-		googleApi.get('oauth2/v1/userinfo').success(function(jsonBody){
-			console.log(jsonBody);
-		}).failure(function(error, response, body){
-			console.log(error);
-		}).call();
-        res.send(200, "Nice work!");
+    if (!req.sauce.apis.google.authed()) {
+        req.sauce.apis.google.auth("/");
+    } else {
+        var client = req.sauce.apis.google.client();
+        var userRequest = client.get("oauth2/v1/userinfo").success(function (user) {
+            res.json(200, user);
+        }).failure(function (err) {
+            res.send(500, user);
+        });
+        userRequest.call();
     }
-}); */
+});
 
 app.listen(7373, function() {
 	console.log("Server started on port " + 7373);
