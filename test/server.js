@@ -30,6 +30,9 @@ app.use(sauce.bind(app).configure({
     clientId: "1372",
     clientSecret: "bKp6Ge7fqM8e342hDH9hQ7c9XEb9WcSc",
     scopes: "access_profile access_friends make_payments"
+}).api("dropbox", {
+    clientId: "6t182louinrhfjg",
+    clientSecret: "mlb5ewzc97c1sjs",
 }).express());
 
 // Test routes
@@ -66,6 +69,21 @@ app.get("/venmo", function(req, res) {
         req.sauce.apis.venmo.auth("/venmo");
     } else {
         res.send(200, "WINNING - VENMO BABY!");
+    }
+});
+app.get("/dropbox", function(req, res) {
+    if (!req.sauce.apis.dropbox.authed()) {
+        req.sauce.apis.dropbox.auth("/dropbox");
+    } else {
+        var client = req.sauce.apis.dropbox.client();
+        var userRequest = client.get("account/info").success(function(user) {
+            res.json(200, user);
+        }).failure(function(err, resp, bod) {
+            res.send(500, err);
+            console.log(resp);
+            console.log(bod);
+        });
+        userRequest.call();
     }
 });
 
