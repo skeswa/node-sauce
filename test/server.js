@@ -26,6 +26,10 @@ app.use(sauce.bind(app).configure({
 }).api("github", {
     clientId: "2e11a6de2de2a14d662e",
     clientSecret: "cd43e16431d35c234790705272d3962e10fb642e"
+}).api("venmo", {
+    clientId: "1372",
+    clientSecret: "bKp6Ge7fqM8e342hDH9hQ7c9XEb9WcSc",
+    scopes: "access_profile access_friends make_payments"
 }).express());
 
 // Test routes
@@ -55,6 +59,13 @@ app.get("/github", function(req, res) {
             console.log(bod);
         });
         userRequest.call();
+    }
+});
+app.get("/venmo", function(req, res) {
+    if (!req.sauce.apis.venmo.authed()) {
+        req.sauce.apis.venmo.auth("/venmo");
+    } else {
+        res.send(200, "WINNING - VENMO BABY!");
     }
 });
 
