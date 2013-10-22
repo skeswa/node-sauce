@@ -14,7 +14,13 @@ app.use(express.session({
     })
 }));
 app.use(express.bodyParser());
-
+/*
+// This block just spits out HTTP requests we receive
+app.use(function (req, res, next) {
+    console.log("CALL: " + req.url);
+    next();
+});
+*/
 // Sauce
 app.use(sauce.bind(app).configure({
     apiBaseRoute: "/sauce/apis/",

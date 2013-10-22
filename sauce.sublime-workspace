@@ -4,20 +4,28 @@
 		"selected_items":
 		[
 			[
+				"ch",
+				"chainObj"
+			],
+			[
+				"acc",
+				"accept"
+			],
+			[
+				"cont",
+				"contentType"
+			],
+			[
+				"con",
+				"contentType"
+			],
+			[
 				"stat",
 				"statusCode"
 			],
 			[
 				"rs",
 				"result"
-			],
-			[
-				"acc",
-				"accessToken"
-			],
-			[
-				"ch",
-				"charAt"
 			],
 			[
 				"c",
@@ -114,10 +122,6 @@
 			[
 				"ex",
 				"exports"
-			],
-			[
-				"con",
-				"context"
 			],
 			[
 				"load",
@@ -264,59 +268,18 @@
 	"buffers":
 	[
 		{
-			"file": "lib/sauce.js",
-			"settings":
-			{
-				"buffer_size": 7022,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/apis/google.js",
-			"settings":
-			{
-				"buffer_size": 6510,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "test/server.js",
 			"settings":
 			{
-				"buffer_size": 1256,
+				"buffer_size": 2225,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib.js",
+			"file": "lib/apis/venmo.api.js",
 			"settings":
 			{
-				"buffer_size": 43,
-				"line_ending": "Windows",
-				"name": "module.exports = require(\"./lib/sauce.js\");"
-			}
-		},
-		{
-			"file": "lib/client.js",
-			"settings":
-			{
-				"buffer_size": 3406,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
-			"settings":
-			{
-				"buffer_size": 4078,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/exception.js",
-			"settings":
-			{
-				"buffer_size": 3978,
+				"buffer_size": 5985,
 				"line_ending": "Windows"
 			}
 		},
@@ -324,7 +287,7 @@
 			"file": "lib/log.js",
 			"settings":
 			{
-				"buffer_size": 570,
+				"buffer_size": 1144,
 				"line_ending": "Windows"
 			}
 		}
@@ -373,13 +336,22 @@
 	},
 	"file_history":
 	[
+		"/C/dev/repos/github/node-sauce/lib/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/exception.js",
+		"/C/dev/repos/github/node-sauce/lib/log.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/client.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/github.api.js",
+		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/wrapper.js",
+		"/C/dev/repos/github/node-sauce/lib/client.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
+		"/C/dev/repos/github/node-sauce/lib.js",
 		"/C/dev/repos/github/node-sauce/package.json",
 		"/C/dev/repos/github/node-sauce/test/server.js",
 		"/C/dev/repos/github/node-sauce/exception.js",
-		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
 		"/C/dev/repos/github/node-sauce/sauce.js",
 		"/C/dev/repos/github/node-sauce/lib/util.js",
-		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
 		"/C/dev/repos/github/node-sauce/README.md",
 		"/C/dev/repos/github/node-sauce/lib/apis/twilio.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/facebook.js",
@@ -491,16 +463,7 @@
 		"/C/dev/repos/github/flowframe/editors/oryx/frontend/src/main/javascript/client/scripts/Core/main.js",
 		"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.1.4/bin/idea64.exe.vmoptions",
 		"/C/Users/Sandile/Downloads/back.html",
-		"/C/dev/repos/github/flowframe/thirdparty/batik/batik170/pom.xml",
-		"/C/dev/repos/github/flowframe/thirdparty/avalon/pom.xml",
-		"/C/dev/repos/github/flowframe/editors/oryx/pom.xml",
-		"/C/dev/repos/github/flowframe/.gitignore.global",
-		"/C/Users/Sandile/Google Drive/Epsilon Labs, LLC/apps/courier/branding/icon/v1/attribution.txt",
-		"/C/dev/repos/github/flowframe/thirdparty/avalon/.gitignore",
-		"/C/dev/repos/github/flowframe/thirdparty/batik/pom.xml",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/package.json",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/db/config.js",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/servers/courier/node_modules/orm/lib/ORM.js"
+		"/C/dev/repos/github/flowframe/thirdparty/batik/batik170/pom.xml"
 	],
 	"find":
 	{
@@ -522,6 +485,13 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"google",
+			"GOOGLE_",
+			"apiWrapper",
+			"APP_SECRET",
+			"SCOPES",
+			"GOOGLE_",
+			"APP_SECRET",
 			"consol",
 			"req.session.sauce",
 			"IllegalState",
@@ -596,6 +566,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"venmo",
+			"VENMO_",
+			"this",
+			"CLIENT_SECRET",
+			"GITHUB_",
+			"CLIENT_SECRET",
 			"req.sauce",
 			"APICallFailure",
 			"accept",
@@ -639,23 +615,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/sauce.js",
+					"file": "test/server.js",
 					"settings":
 					{
-						"buffer_size": 7022,
+						"buffer_size": 2225,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3126,
-								3126
+								2225,
+								2225
 							]
 						],
 						"settings":
@@ -668,25 +644,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 947.0,
+						"translation.y": 348.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lib/apis/google.js",
+					"file": "lib/apis/venmo.api.js",
 					"settings":
 					{
-						"buffer_size": 6510,
+						"buffer_size": 5985,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3846,
-								3846
+								4725,
+								4725
 							]
 						],
 						"settings":
@@ -698,176 +674,26 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 139.0,
-						"translation.y": 829.0,
+						"translation.x": 0.0,
+						"translation.y": 1316.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "test/server.js",
-					"settings":
-					{
-						"buffer_size": 1256,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								786,
-								786
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lib.js",
-					"settings":
-					{
-						"buffer_size": 43,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								43,
-								43
-							]
-						],
-						"settings":
-						{
-							"auto_name": "module.exports = require(\"./lib/sauce.js\");",
-							"incomplete_sync": null,
-							"is_xml": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lib/client.js",
-					"settings":
-					{
-						"buffer_size": 3406,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2936,
-								2936
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 532.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
-					"settings":
-					{
-						"buffer_size": 4078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								512,
-								530
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": true,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 37.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "lib/exception.js",
-					"settings":
-					{
-						"buffer_size": 3978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3912,
-								3912
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 698.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "lib/log.js",
 					"settings":
 					{
-						"buffer_size": 570,
+						"buffer_size": 1144,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								531,
-								531
+								0,
+								0
 							]
 						],
 						"settings":
@@ -876,6 +702,7 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
