@@ -4,12 +4,76 @@
 		"selected_items":
 		[
 			[
-				"ch",
-				"chainObj"
+				"APIC",
+				"APICallFailureException"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"sco",
+				"scopes"
+			],
+			[
+				"clie",
+				"clientId"
+			],
+			[
+				"time",
+				"timeout	setTimeout function"
+			],
+			[
+				"api",
+				"apiName"
+			],
+			[
+				"HTTP",
+				"HTTP_POST_METHOD"
+			],
+			[
+				"toke",
+				"tokenUrl"
+			],
+			[
+				"extensio",
+				"extensionMap"
+			],
+			[
+				"red",
+				"redirectRouteUrl"
+			],
+			[
+				"ap",
+				"app"
+			],
+			[
+				"rout",
+				"routed"
+			],
+			[
+				"tok",
+				"tokenUrl"
+			],
+			[
+				"conten",
+				"contentType"
 			],
 			[
 				"acc",
-				"accept"
+				"accessToken"
+			],
+			[
+				"_c",
+				"_contentType"
+			],
+			[
+				"ch",
+				"chainObj"
 			],
 			[
 				"cont",
@@ -80,16 +144,8 @@
 				"redirectUrl"
 			],
 			[
-				"ap",
-				"apiName"
-			],
-			[
 				"is",
 				"isValidExternalApiName"
-			],
-			[
-				"api",
-				"apiClient"
 			],
 			[
 				"Ex",
@@ -102,10 +158,6 @@
 			[
 				"req",
 				"reqPayload"
-			],
-			[
-				"rout",
-				"routePath"
 			],
 			[
 				"chain",
@@ -236,10 +288,6 @@
 				"userId"
 			],
 			[
-				"call",
-				"callback"
-			],
-			[
 				"sync",
 				"synced"
 			],
@@ -268,18 +316,26 @@
 	"buffers":
 	[
 		{
-			"file": "test/server.js",
+			"file": "lib/apis/wrapper.js",
 			"settings":
 			{
-				"buffer_size": 2225,
+				"buffer_size": 604,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/apis/venmo.api.js",
+			"file": "lib/apis/api.js",
 			"settings":
 			{
-				"buffer_size": 5985,
+				"buffer_size": 18654,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/apis/google.api.js",
+			"settings":
+			{
+				"buffer_size": 6926,
 				"line_ending": "Windows"
 			}
 		},
@@ -288,6 +344,30 @@
 			"settings":
 			{
 				"buffer_size": 1144,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/apis/dropbox.api.js",
+			"settings":
+			{
+				"buffer_size": 6421,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/apis/github.api.js",
+			"settings":
+			{
+				"buffer_size": 6529,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/session/callback.cache.js",
+			"settings":
+			{
+				"buffer_size": 1293,
 				"line_ending": "Windows"
 			}
 		}
@@ -336,19 +416,22 @@
 	},
 	"file_history":
 	[
-		"/C/dev/repos/github/node-sauce/lib/sauce.js",
-		"/C/dev/repos/github/node-sauce/lib/exception.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/venmo.api.js",
+		"/C/dev/repos/github/node-sauce/test/server.js",
 		"/C/dev/repos/github/node-sauce/lib/log.js",
-		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/client.js",
+		"/C/dev/repos/github/node-sauce/lib/session/callback.cache.js",
+		"/C/dev/repos/github/node-sauce/lib/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/dropbox.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/github.api.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
+		"/C/dev/repos/github/node-sauce/lib/exception.js",
 		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/wrapper.js",
 		"/C/dev/repos/github/node-sauce/lib/client.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
 		"/C/dev/repos/github/node-sauce/lib.js",
 		"/C/dev/repos/github/node-sauce/package.json",
-		"/C/dev/repos/github/node-sauce/test/server.js",
 		"/C/dev/repos/github/node-sauce/exception.js",
 		"/C/dev/repos/github/node-sauce/sauce.js",
 		"/C/dev/repos/github/node-sauce/lib/util.js",
@@ -460,10 +543,7 @@
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/controller_conversation_list.js",
 		"/C/Users/Sandile/AppData/Local/Temp/Temp1_GCM-Chrome-Upload.zip/GCM-Chrome/manifest.json",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/html/window.html",
-		"/C/dev/repos/github/flowframe/editors/oryx/frontend/src/main/javascript/client/scripts/Core/main.js",
-		"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.1.4/bin/idea64.exe.vmoptions",
-		"/C/Users/Sandile/Downloads/back.html",
-		"/C/dev/repos/github/flowframe/thirdparty/batik/batik170/pom.xml"
+		"/C/dev/repos/github/flowframe/editors/oryx/frontend/src/main/javascript/client/scripts/Core/main.js"
 	],
 	"find":
 	{
@@ -485,6 +565,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"customizationsMap",
+			"sauceConfig",
+			"apiConfig",
+			"scopes",
+			"CallbackTimeout",
+			"IllegalState",
+			"API authentication failed with",
+			"Client",
+			"contentType = ",
+			"_con",
 			"google",
 			"GOOGLE_",
 			"apiWrapper",
@@ -566,6 +656,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"extensionMap",
+			"sauceConfigMap",
+			"apiConfigMap",
+			"NoSuchCallback",
+			"CallbackTimeout",
+			"OAuth2Client",
+			"return ",
+			"",
+			"con",
 			"venmo",
 			"VENMO_",
 			"this",
@@ -615,23 +714,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/server.js",
+					"file": "lib/apis/wrapper.js",
 					"settings":
 					{
-						"buffer_size": 2225,
+						"buffer_size": 604,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2225,
-								2225
+								293,
+								293
 							]
 						],
 						"settings":
@@ -644,25 +743,54 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 348.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lib/apis/venmo.api.js",
+					"file": "lib/apis/api.js",
 					"settings":
 					{
-						"buffer_size": 5985,
+						"buffer_size": 18654,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4725,
-								4725
+								12699,
+								12699
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"is_xml": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2520.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/apis/google.api.js",
+					"settings":
+					{
+						"buffer_size": 6926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5672,
+								5672
 							]
 						],
 						"settings":
@@ -675,17 +803,110 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1316.0,
+						"translation.y": 1710.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "lib/log.js",
 					"settings":
 					{
 						"buffer_size": 1144,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1094,
+								1094
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "lib/apis/dropbox.api.js",
+					"settings":
+					{
+						"buffer_size": 6421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4988,
+								4894
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1346.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/apis/github.api.js",
+					"settings":
+					{
+						"buffer_size": 6529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5119,
+								5119
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/session/callback.cache.js",
+					"settings":
+					{
+						"buffer_size": 1293,
 						"regions":
 						{
 						},
