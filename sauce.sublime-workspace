@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"Ap",
+				"apiEx"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"fa",
+				"fakeGoogleApi"
+			],
+			[
+				"ex",
+				"extension"
+			],
+			[
+				"client",
+				"clientConfig"
+			],
+			[
 				"APIC",
 				"APICallFailureException"
 			],
@@ -172,10 +192,6 @@
 				"require"
 			],
 			[
-				"ex",
-				"exports"
-			],
-			[
 				"load",
 				"loadApis"
 			],
@@ -316,58 +332,66 @@
 	"buffers":
 	[
 		{
-			"file": "lib/apis/wrapper.js",
+			"file": "lib/sauce.js",
 			"settings":
 			{
-				"buffer_size": 604,
+				"buffer_size": 6243,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/apis/api.js",
+			"file": "lib/api/api.factory.js",
 			"settings":
 			{
-				"buffer_size": 18654,
+				"buffer_size": 2055,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/apis/google.api.js",
+			"file": "test/testServer1.js",
 			"settings":
 			{
-				"buffer_size": 6926,
+				"buffer_size": 1485,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/log.js",
+			"file": "lib/api/api.exceptions.js",
 			"settings":
 			{
-				"buffer_size": 1144,
+				"buffer_size": 2291,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/apis/dropbox.api.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 6421,
+				"buffer_size": 302,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/apis/github.api.js",
+			"file": "test/server.js",
 			"settings":
 			{
-				"buffer_size": 6529,
+				"buffer_size": 2964,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/session/callback.cache.js",
+			"file": "lib/api/type/oauth2.api.js",
 			"settings":
 			{
-				"buffer_size": 1293,
+				"buffer_size": 19593,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/exception.js",
+			"settings":
+			{
+				"buffer_size": 2044,
 				"line_ending": "Windows"
 			}
 		}
@@ -416,18 +440,28 @@
 	},
 	"file_history":
 	[
-		"/C/dev/repos/github/node-sauce/lib/apis/venmo.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/dropbox.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/type/oauth2.api.js",
+		"/C/dev/repos/github/node-sauce/test/testServer1.js",
+		"/C/dev/repos/github/node-sauce/lib/assert.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/venmo.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/google.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/github.api.js",
+		"/C/dev/repos/github/node-sauce/lib/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/api/helper/wrapper.js",
+		"/C/dev/repos/github/node-sauce/lib/api/helper/client.js",
 		"/C/dev/repos/github/node-sauce/test/server.js",
 		"/C/dev/repos/github/node-sauce/lib/log.js",
-		"/C/dev/repos/github/node-sauce/lib/apis/client.js",
 		"/C/dev/repos/github/node-sauce/lib/session/callback.cache.js",
-		"/C/dev/repos/github/node-sauce/lib/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/wrapper.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/oauth2api.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/dropbox.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/github.api.js",
-		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
 		"/C/dev/repos/github/node-sauce/lib/exception.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/client.js",
+		"/C/dev/repos/github/node-sauce/lib/apis/venmo.api.js",
 		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
-		"/C/dev/repos/github/node-sauce/lib/apis/wrapper.js",
 		"/C/dev/repos/github/node-sauce/lib/client.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
 		"/C/dev/repos/github/node-sauce/lib.js",
@@ -533,17 +567,7 @@
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/content.css",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/background.js",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/list.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/styles.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/chat.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers.js",
-		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/JsFormat/Default (Windows).sublime-keymap",
-		"/C/dev/resources/html5boilerplate/v4.2.0.0/index.html",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/MainController.js",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/ConversationController.js",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/controllers/controller_conversation_list.js",
-		"/C/Users/Sandile/AppData/Local/Temp/Temp1_GCM-Chrome-Upload.zip/GCM-Chrome/manifest.json",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/html/window.html",
-		"/C/dev/repos/github/flowframe/editors/oryx/frontend/src/main/javascript/client/scripts/Core/main.js"
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/styles.css"
 	],
 	"find":
 	{
@@ -565,6 +589,14 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Excep",
+			"Excp",
+			"assert.",
+			"assert.func",
+			"clientConfig",
+			"doSucc",
+			"doFa",
+			"res.session",
 			"customizationsMap",
 			"sauceConfig",
 			"apiConfig",
@@ -656,6 +688,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"assert.funk",
+			"clientExtensionMap",
+			"req.session",
 			"extensionMap",
 			"sauceConfigMap",
 			"apiConfigMap",
@@ -719,18 +754,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lib/apis/wrapper.js",
+					"file": "lib/sauce.js",
 					"settings":
 					{
-						"buffer_size": 604,
+						"buffer_size": 6243,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								293,
-								293
+								196,
+								196
 							]
 						],
 						"settings":
@@ -750,47 +785,46 @@
 				},
 				{
 					"buffer": 1,
-					"file": "lib/apis/api.js",
+					"file": "lib/api/api.factory.js",
 					"settings":
 					{
-						"buffer_size": 18654,
+						"buffer_size": 2055,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12699,
-								12699
+								497,
+								497
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"is_xml": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2520.0,
+						"translation.y": 253.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "lib/apis/google.api.js",
+					"file": "test/testServer1.js",
 					"settings":
 					{
-						"buffer_size": 6926,
+						"buffer_size": 1485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5672,
-								5672
+								821,
+								821
 							]
 						],
 						"settings":
@@ -803,25 +837,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1710.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "lib/log.js",
+					"file": "lib/api/api.exceptions.js",
 					"settings":
 					{
-						"buffer_size": 1144,
+						"buffer_size": 2291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1094,
-								1094
+								1931,
+								1931
 							]
 						],
 						"settings":
@@ -841,18 +875,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "lib/apis/dropbox.api.js",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 6421,
+						"buffer_size": 302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4988,
-								4894
+								264,
+								264
 							]
 						],
 						"settings":
@@ -860,30 +894,30 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1346.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "lib/apis/github.api.js",
+					"file": "test/server.js",
 					"settings":
 					{
-						"buffer_size": 6529,
+						"buffer_size": 2964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5119,
-								5119
+								1160,
+								1160
 							]
 						],
 						"settings":
@@ -896,25 +930,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "lib/session/callback.cache.js",
+					"file": "lib/api/type/oauth2.api.js",
 					"settings":
 					{
-						"buffer_size": 1293,
+						"buffer_size": 19593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								19553,
+								19553
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4421.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/exception.js",
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2044,
+								2044
 							]
 						],
 						"settings":
