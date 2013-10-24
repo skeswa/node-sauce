@@ -11,7 +11,7 @@ app.use(express.session({
 }));
 app.use(express.bodyParser());
 
-var Api = require("../lib/api/type/oauth2.js");
+var Api = require("../lib/api/type/oauth2.api.js");
 var fakeGoogleApi = new Api("google", {}, {
     clientId: "1073639428455-4i31qgcbhon7dvstd9r6efeo7rhcsedl.apps.googleusercontent.com",
     clientSecret: "TdJQNp1INvQHdCINUiQbR6PZ",
