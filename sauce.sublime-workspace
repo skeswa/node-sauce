@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"head",
+				"headerVal"
+			],
+			[
+				"is",
+				"isFirst"
+			],
+			[
+				"hea",
+				"headerVal"
+			],
+			[
+				"r",
+				"req"
+			],
+			[
+				"auth",
+				"authUrl"
+			],
+			[
+				"request",
+				"requestUrl"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"sign",
+				"signatureMethod"
+			],
+			[
+				"toke",
+				"tokenSecret"
+			],
+			[
+				"tok",
+				"tokenSecret"
+			],
+			[
+				"token",
+				"tokenSecret"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"cons",
+				"consumerKey"
+			],
+			[
 				"Ap",
 				"apiEx"
 			],
@@ -56,10 +108,6 @@
 				"HTTP_POST_METHOD"
 			],
 			[
-				"toke",
-				"tokenUrl"
-			],
-			[
 				"extensio",
 				"extensionMap"
 			],
@@ -74,10 +122,6 @@
 			[
 				"rout",
 				"routed"
-			],
-			[
-				"tok",
-				"tokenUrl"
 			],
 			[
 				"conten",
@@ -162,10 +206,6 @@
 			[
 				"redir",
 				"redirectUrl"
-			],
-			[
-				"is",
-				"isValidExternalApiName"
 			],
 			[
 				"Ex",
@@ -332,26 +372,34 @@
 	"buffers":
 	[
 		{
-			"file": "lib/sauce.js",
+			"file": "lib/api/type/oauth1.api.js",
 			"settings":
 			{
-				"buffer_size": 6243,
+				"buffer_size": 22632,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/api/api.factory.js",
+			"file": "/C/Users/Sandile/Downloads/datastorage.js",
 			"settings":
 			{
-				"buffer_size": 2055,
+				"buffer_size": 5029,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "test/testServer1.js",
+			"file": "/C/dev/repos/github/jive/routes/stereomood.svc.js",
 			"settings":
 			{
-				"buffer_size": 1485,
+				"buffer_size": 9388,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 358,
 				"line_ending": "Windows"
 			}
 		},
@@ -364,18 +412,10 @@
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "lib/exception.js",
 			"settings":
 			{
-				"buffer_size": 302,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test/server.js",
-			"settings":
-			{
-				"buffer_size": 2964,
+				"buffer_size": 2385,
 				"line_ending": "Windows"
 			}
 		},
@@ -383,15 +423,7 @@
 			"file": "lib/api/type/oauth2.api.js",
 			"settings":
 			{
-				"buffer_size": 19593,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/exception.js",
-			"settings":
-			{
-				"buffer_size": 2044,
+				"buffer_size": 19412,
 				"line_ending": "Windows"
 			}
 		}
@@ -440,17 +472,24 @@
 	},
 	"file_history":
 	[
-		"/C/dev/repos/github/node-sauce/lib/api/impl/dropbox.api.js",
+		"/C/Users/Sandile/Downloads/Recur.java",
 		"/C/dev/repos/github/node-sauce/lib/api/type/oauth2.api.js",
-		"/C/dev/repos/github/node-sauce/test/testServer1.js",
-		"/C/dev/repos/github/node-sauce/lib/assert.js",
-		"/C/dev/repos/github/node-sauce/lib/api/impl/venmo.api.js",
-		"/C/dev/repos/github/node-sauce/lib/api/impl/google.api.js",
-		"/C/dev/repos/github/node-sauce/lib/api/impl/github.api.js",
 		"/C/dev/repos/github/node-sauce/lib/sauce.js",
+		"/C/dev/repos/github/node-sauce/lib/api/api.factory.js",
+		"/C/dev/repos/github/node-sauce/lib/api/type/oauth1.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/dropbox.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/github.api.js",
+		"/C/dev/repos/github/node-sauce/test/testServer1.js",
+		"/C/dev/repos/github/node-sauce/lib/api/api.exceptions.js",
+		"/C/dev/repos/github/node-sauce/package.json",
+		"/C/dev/repos/github/node-sauce/test/server.js",
+		"/C/dev/repos/github/node-sauce/lib/exception.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/venmo.api.js",
+		"/C/dev/repos/github/node-sauce/lib/api/util/oauth2.client.js",
+		"/C/dev/repos/github/node-sauce/lib/assert.js",
+		"/C/dev/repos/github/node-sauce/lib/api/impl/google.api.js",
 		"/C/dev/repos/github/node-sauce/lib/api/helper/wrapper.js",
 		"/C/dev/repos/github/node-sauce/lib/api/helper/client.js",
-		"/C/dev/repos/github/node-sauce/test/server.js",
 		"/C/dev/repos/github/node-sauce/lib/log.js",
 		"/C/dev/repos/github/node-sauce/lib/session/callback.cache.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/wrapper.js",
@@ -458,14 +497,12 @@
 		"/C/dev/repos/github/node-sauce/lib/apis/google.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/dropbox.api.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/github.api.js",
-		"/C/dev/repos/github/node-sauce/lib/exception.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/client.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/venmo.api.js",
 		"/C/dev/repos/github/letmegetthatforyou.io/server/services/auth.svc.js",
 		"/C/dev/repos/github/node-sauce/lib/client.js",
 		"/C/dev/repos/github/node-sauce/lib/apis/google.js",
 		"/C/dev/repos/github/node-sauce/lib.js",
-		"/C/dev/repos/github/node-sauce/package.json",
 		"/C/dev/repos/github/node-sauce/exception.js",
 		"/C/dev/repos/github/node-sauce/sauce.js",
 		"/C/dev/repos/github/node-sauce/lib/util.js",
@@ -562,16 +599,11 @@
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/dal/dal.js",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/manifest.json",
 		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/general.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/header.js",
-		"/C/Users/Sandile/AppData/Roaming/Sublime Text 2/Packages/JsFormat/JsFormat.sublime-settings",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/content.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/background.js",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/list.css",
-		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/css/styles.css"
+		"/C/dev/repos/bitbucket/epsilonlabsllc/chromeapps/courier/js/header.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -589,6 +621,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			";\n",
+			"TODO",
+			"IllegalState",
 			"Excep",
 			"Excp",
 			"assert.",
@@ -688,6 +723,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"UnsupportedOperation",
 			"assert.funk",
 			"clientExtensionMap",
 			"req.session",
@@ -749,23 +785,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/sauce.js",
+					"file": "lib/api/type/oauth1.api.js",
 					"settings":
 					{
-						"buffer_size": 6243,
+						"buffer_size": 22632,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								12071,
+								12071
 							]
 						],
 						"settings":
@@ -778,53 +814,55 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3555.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lib/api/api.factory.js",
+					"file": "/C/Users/Sandile/Downloads/datastorage.js",
 					"settings":
 					{
-						"buffer_size": 2055,
+						"buffer_size": 5029,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								497,
-								497
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 253.0,
+						"translation.y": 1935.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "test/testServer1.js",
+					"file": "/C/dev/repos/github/jive/routes/stereomood.svc.js",
 					"settings":
 					{
-						"buffer_size": 1485,
+						"buffer_size": 9388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								821,
-								821
+								5502,
+								5473
 							]
 						],
 						"settings":
@@ -837,56 +875,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 590.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "lib/api/api.exceptions.js",
-					"settings":
-					{
-						"buffer_size": 2291,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1931,
-								1931
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 302,
+						"buffer_size": 358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								350,
+								350
 							]
 						],
 						"settings":
@@ -905,19 +912,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "test/server.js",
+					"buffer": 4,
+					"file": "lib/api/api.exceptions.js",
 					"settings":
 					{
-						"buffer_size": 2964,
+						"buffer_size": 2291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1160,
-								1160
+								2291,
+								2291
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 261.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "lib/exception.js",
+					"settings":
+					{
+						"buffer_size": 2385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2174,
+								2174
 							]
 						],
 						"settings":
@@ -940,15 +978,15 @@
 					"file": "lib/api/type/oauth2.api.js",
 					"settings":
 					{
-						"buffer_size": 19593,
+						"buffer_size": 19412,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19553,
-								19553
+								19412,
+								19412
 							]
 						],
 						"settings":
@@ -961,38 +999,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4421.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "lib/exception.js",
-					"settings":
-					{
-						"buffer_size": 2044,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2044,
-								2044
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 581.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1030,7 +1037,11 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
+	"output.GoSublime-main-output":
+	{
+		"height": 100.0
+	},
 	"output.GoSublime-output":
 	{
 		"height": 100.0
