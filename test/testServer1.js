@@ -40,6 +40,11 @@ var fakeTwitterApi = new UglyApi("twitter", {}, {
     requestUrl: "https://api.twitter.com/1.1/"
 });
 
+app.post("/herp", function(req, res) {
+    console.log(req.headers);
+    res.send(500, "nasty kid.");
+});
+
 app.get("/test", function(req, res) {
     if (!fakeGoogleApi.authed(req.session)) {
         fakeGoogleApi.auth(app, req, res, "/test").call(function(err, token) {
