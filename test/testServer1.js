@@ -1,4 +1,6 @@
 var express = require("express");
+var reload = require("reload");
+var http = require("http");
 var app = express();
 
 app.use(express.cookieParser());
@@ -70,10 +72,24 @@ app.get("/ugh", function(req, res) {
             }
         });
     } else {
-        res.send(200);
+        var client = fakeTwitterApi.makeClient(req.session);
+        client.get("statuses/retweets_of_me.json").receives("json").payload({
+            count: 5
+        }).call(function(err, result) {
+            if (err) {
+                res.json(500, err);
+            } else {
+                res.json(200, result);
+            }
+        });
     }
 });
 
-app.listen(7373, function() {
-    console.log("Server started on port " + 7373);
+var server = http.createServer(app);
+
+//reload code here
+reload(server, app)
+
+server.listen(7373, function() {
+    console.log("Web server listening on port 7373");
 });

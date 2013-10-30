@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "main": "./test/server.js",
     "devDependencies": {
-        "express": "*"
+        "express": "*",
+        "reload": "*"
     },
     "dependencies": {
         "request": "2.27.0",
