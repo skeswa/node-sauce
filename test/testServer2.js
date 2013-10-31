@@ -19,10 +19,10 @@ app.use(express.bodyParser());
 app.use(sauce.bind(app).configure({
     apiBaseRoute: "/sauce/apis/",
     sessionTimeout: 300000
-}).userData('testData', {
-	user: 'root',
-	pass: 'pass',
-	url: 'pooter.sandile.me:27017'
+}).user('testData', {
+	dbUser: 'root',
+	dbPass: 'pass',
+	dbUrl: 'pooter.sandile.me:27017'
 }).express());
 
 //start server
