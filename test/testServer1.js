@@ -72,7 +72,7 @@ app.get("/ugh", function(req, res) {
             }
         });
     } else {
-        var client = fakeTwitterApi.makeClient(req.session);
+        var client = require("../lib/api/client/client.facade.js").make(app, fakeTwitterApi, req, res);
         client.get("statuses/retweets_of_me.json").receives("json").payload({
             count: 5
         }).call(function(err, result) {
